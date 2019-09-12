@@ -10,9 +10,11 @@ html {
 body {
   font-family: 'Nunito Sans', sans-serif;
   margin: 0;
+ color: #ffffff;
+
 }
 a {
-    color: #EF233C;
+    color: #ffffff;
 }
 a:hover {
     text-decoration: none;
@@ -20,12 +22,14 @@ a:hover {
 h1, h2 {
   font-family: 'Cantata One', cursive;
   font-weight: 400;
+  color: #ffffff;
 }
 h1 {
-  font-size: 80px;
+  font-size: 60px;
+   text-shadow: 4px 3px #0a0e27;
 }
 h2 {
-  font-size: 40px;
+  font-size: 36px;
   margin-top: 0;
 }
 .content-wrap {
@@ -52,12 +56,12 @@ h2 {
 /* Header & Footer */
 header, 
 footer {
-  background: #2B2D42;
-  color: #8D99AE;
+  background: #643a71;
+  color: #ffffff;
 }
 header h1,
 header h2 {
-    color: #EDF2F4;
+    color: #ffffff;
     margin: 0;
 }
 
@@ -80,16 +84,19 @@ footer {
   padding: 10px;
   display: inline-block;
 }
-
+footer h2 {
+  font-size: 20px;
+  display: inline-block;
+}
 
 
 /* Work Experience */
 .work {
-    background: #EDF2F4;
+    background: #8ea4d2;
 }
 
 
 /* Education */
 .education {
-    background: #8D99AE;
+    background: #0c1b33;
 }
